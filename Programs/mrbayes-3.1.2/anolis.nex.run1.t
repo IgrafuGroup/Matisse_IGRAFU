@@ -1,0 +1,35 @@
+#NEXUS
+[ID: 8035914170]
+begin trees;
+   translate
+       1 Anolis_ahli,
+       2 Anolis_aliniger,
+       3 Anolis_alutaceus,
+       4 Anolis_angusticeps,
+       5 Anolis_bahorucoensis,
+       6 Anolis_barahonae,
+       7 Anolis_brevirostris,
+       8 Anolis_coelestinus,
+       9 Anolis_cristatellus,
+      10 Anolis_cuvieri,
+      11 Anolis_distichus,
+      12 Anolis_equestris,
+      13 Anolis_garmani,
+      14 Anolis_grahami,
+      15 Anolis_insolitus,
+      16 Anolis_krugi,
+      17 Anolis_lineatopus,
+      18 Anolis_loysiana,
+      19 Anolis_luteogularis,
+      20 Anolis_marcanoi,
+      21 Anolis_occultus,
+      22 Anolis_olssoni,
+      23 Anolis_ophiolepis,
+      24 Anolis_paternus,
+      25 Anolis_sagrei,
+      26 Anolis_strahmi,
+      27 Anolis_stratulus,
+      28 Anolis_valencienni,
+      29 Anolis_vanidicus,
+      30 Diplolaemus_darwinii;
+   tree rep.1 = ((((((((((8:0.100000,(18:0.100000,(2:0.100000,21:0.100000):0.100000):0.100000):0.100000,30:0.100000):0.100000,13:0.100000):0.100000,10:0.100000):0.100000,(29:0.100000,((5:0.100000,3:0.100000):0.100000,27:0.100000):0.100000):0.100000):0.100000,4:0.100000):0.100000,12:0.100000):0.100000,(((9:0.100000,(19:0.100000,17:0.100000):0.100000):0.100000,26:0.100000):0.100000,7:0.100000):0.100000):0.100000,(11:0.100000,(15:0.100000,((16:0.100000,((20:0.100000,22:0.100000):0.100000,14:0.100000):0.100000):0.100000,(((24:0.100000,25:0.100000):0.100000,6:0.100000):0.100000,23:0.100000):0.100000):0.100000):0.100000):0.100000):0.100000,28:0.100000,1:0.100000);

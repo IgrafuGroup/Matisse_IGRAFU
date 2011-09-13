@@ -1,0 +1,11 @@
+#NEXUS
+begin data;
+  dimensions ntax=4 nchar=20;
+  format datatype=restriction interleave=no gap=-;
+  matrix
+  Saimiri_sciureus 10101000101010111010
+  Tarsius_syrichta 10101000101010111010
+  Lemur_catta      10101010101010111010
+  Macaca_fuscata   10101011101010111010
+  ;
+end;

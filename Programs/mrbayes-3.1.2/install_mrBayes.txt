@@ -1,0 +1,12 @@
+% tar -zxvf mrbayes-*-*-*.tar.gz
+% cd mrbayes-*-*-*/
+
+% make 
+
+//se der erro readline
+//necessita instalar libreadline5-dev
+% sudo apt-get install libreadline5-dev
+% make
+
+//Para rodar:
+% ./mb

@@ -1,0 +1,8 @@
+begin mrbayes;
+	set autoclose=yes nowarnings=yes;
+	execute /home/acarlos/Codigos/Igrafu/Igrafu/Programs/mrbayes-3.1.2/adh.nex;
+	 mcmcp printfreq=1;
+	lset covarion=no rates=equal nucmodel=4by4 nst=6;
+	prset brlenspr=unconstrained:exponential(0);
+	mcmc ngen=1000000 nrun=2 samplefreq=100 nchain=4 swapfreq=1 nswap=1 diagnfreq=1000 minpartfreq=0.1 stoprule=no mcmcdiagn=yes seed=1116355510 swapseed=1116355510 savebrlens=yes ordertaxa=no reweight=(0.0,0.0,1.0) relburnin=yes burninfrac=0.25 startingtree=random;
+end;

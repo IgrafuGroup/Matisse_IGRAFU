@@ -1,0 +1,79 @@
+[ID: 1287949139]
+
+      Below are rough plots of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use these     
+      graphs to determine what the burn in for your analysis should be. 
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      tionarity. Also examine the convergence diagnostics provided by   
+      the 'sump' and 'sumt' commands for all the parameters in your     
+      model. Remember that the burn in is the number of samples to dis- 
+      card. There are a total of ngen / samplefreq samples taken during 
+      a MCMC analysis.                                                  
+
+      Overlay plot for both runs:
+      (1 = Run number 1; 2 = Run number 2; * = Both runs)
+
+   +------------------------------------------------------------+ -14253.45
+   |                                                     2     *|
+   |                                               2     1      |
+   |                                         2     1            |
+   |                                   2                        |
+   |                             2           1                  |
+   |                       2           1                        |
+   |                 2           1                              |
+   |                       1                                    |
+   |           2     1                                          |
+   |           1                                                |
+   |                                                            |
+   |     *                                                      |
+   |                                                            |
+   |                                                            |
+   |*                                                           |
+   +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -23606.79
+   ^                                                            ^
+   1                                                            1000
+
+      Estimated marginal likelihoods for runs sampled in files
+         "/home/acarlos/Codigos/Igrafu/Igrafu/Programs/mrbayes-3.1.2/adh.nex.run1.p" and "/home/acarlos/Codigos/Igrafu/Igrafu/Programs/mrbayes-3.1.2/adh.nex.run2.p":
+      Run   Arithmetic mean   Harmonic mean
+      --------------------------------------
+        1      -14575.02 *       -23606.79 *
+        2      -14253.45 *       -23487.91 *
+      --------------------------------------
+      --------------------------------------
+      TOTAL    -14253.45 *       -23606.10 *
+      --------------------------------------
+      * These estimates may be unreliable because 
+        some extreme values were excluded
+
+
+         (Summaries are based on a total of 22 samples from 2 runs)
+         (Each run produced 11 samples of which 11 samples were included)
+
+                                                     95% Cred. Interval
+                                                   ----------------------
+      Parameter          Mean        Variance       Lower         Upper         Median       PSRF *
+      ---------------------------------------------------------------------------------------------
+      TL{all}           9.117818      1.163895      7.087000     10.500000      9.501000      1.027
+      r(A<->C){all}     0.156196      0.000205      0.126480      0.182201      0.162313      1.436
+      r(A<->G){all}     0.172252      0.001001      0.128309      0.243557      0.164564      1.982
+      r(A<->T){all}     0.140634      0.000669      0.100595      0.185423      0.134859      1.141
+      r(C<->G){all}     0.146076      0.001173      0.070353      0.186700      0.161210      1.382
+      r(C<->T){all}     0.257463      0.006097      0.166667      0.381361      0.237466      1.400
+      r(G<->T){all}     0.127380      0.002120      0.044881      0.191559      0.134825      1.669
+      pi(A){all}        0.207883      0.000925      0.143909      0.250000      0.217044      1.404
+      pi(C){all}        0.302392      0.001259      0.250000      0.371357      0.286509      1.773
+      pi(G){all}        0.218113      0.000266      0.195648      0.250000      0.221486      1.444
+      pi(T){all}        0.271612      0.000150      0.247890      0.283643      0.274961      0.968
+      m{1}              0.729595      0.046075      0.446942      1.000000      0.834519      1.631
+      m{2}              0.821017      0.053521      0.283080      1.027872      0.934332      1.800
+      m{3}              1.449388      0.177373      1.000000      2.269978      1.393918      1.847
+      ---------------------------------------------------------------------------------------------
+      * Convergence diagnostic (PSRF = Potential scale reduction factor [Gelman
+        and Rubin, 1992], uncorrected) should approach 1 as runs converge. The
+        values may be unreliable if you have a small number of samples. PSRF should
+        only be used as a rough guide to convergence since all the assumptions
+        that allow one to interpret it as a scale reduction factor are not met in
+        the phylogenetic context.

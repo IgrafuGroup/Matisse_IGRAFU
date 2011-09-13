@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd Programs/mrbayes-3.1.2
+ls
+make
+cd ../..
+chmod +x Igrafu
+
+
